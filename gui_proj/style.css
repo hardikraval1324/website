@@ -1,0 +1,156 @@
+
+ 
+ 
+h1{ font-size:24px}
+    h2{
+      font-size: 56px;
+      font-weight: 100;
+    }
+    p.sans-serif{ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+    img {
+        display: block;
+        margin-left: 30%;
+        margin-right: 10%;
+  }
+ /* header*/
+.header {
+  background-color: #000000  ;
+  padding: 20px;
+  text-align: center;
+  
+}
+   /* top nevagition bar*/
+        .topnav
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            
+            position: sticky;
+             top: 0;
+          }
+          
+          .topnav a {
+            float: left;
+            border-right:1px solid #bbb;
+          }
+          
+          .topnav a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          .topnav a:hover {
+            background-color: #111;
+            transition:0.6s ease;
+            color: #d4af37;
+          }
+  /* vertical left column */
+    .column
+    {
+  float: left;
+  padding: 9px;
+  width:10%;
+  height:100%;
+}
+.column{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 0px;
+  height: 500px;
+    
+}
+
+.column a.one:link{
+    display:block; 
+    color:black;
+    text-decoration:none
+    }
+    .column a.one:visited{
+     
+      color:black;
+      text-decoration:none
+     }
+     .column a.one:hover{
+     
+     font-size:150%;
+     color:black;
+     text-decoration:line-through;
+     transition:0.6s ease;
+     }      
+/* middle column */ 
+.column.middle {
+  
+  width: 100%;
+  position: relative;
+  left:20px;
+}
+
+.column.middle
+{list-style-type: none;
+  margin: 30%;
+  padding: 20%;
+
+
+}
+.home{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  
+}
+
+/* container */
+.container
+{
+  padding: 64px;
+background-color: #000;
+
+}
+
+
+ /* footer*/ 
+.footer{
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+  color: white; 
+}
+.icon{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: cornsilk;
+  position: relative;
+  top: 10px;
+  margin-right:50px;  
+  margin-bottom:20px;
+  padding:5px 4px;  
+}
+.icon:hover{
+  color: coral;
+  font-size: 120%;
+  transition: 0.6s ease-in-out;
+  cursor: pointer;
+  
+}
+.text-area{
+  font-size: 20px;
+  background: none;
+  color: #ffd700;
+  margin: 7px;
+  border: 1px solid #ffd700;
+  border-radius:20px;
+  text-align: center;
+  padding: 14px 20px;
+}
+
